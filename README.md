@@ -42,5 +42,7 @@ http://localhost:8080/api/rewards/monthly?customerId=103&year=2024
 example :
 http://localhost:8080/api/rewards/yearly?customerId=103&year=2024
 ## Sample Data
+This application includes sample data for demonstration purposes. You can find sample data in 'data.json' file.
 
+## License
 
