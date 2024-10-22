@@ -35,10 +35,10 @@ This application is a rewards points system that allows retailers to calculate r
    mvn spring-boot-run
      
 ## Endpoints
-**Get Monthly points**
+- **Get Monthly points**
 example :
 http://localhost:8080/api/rewards/monthly?customerId=103&year=2024
-**Get Total points**
+- **Get Total points**
 example :
 http://localhost:8080/api/rewards/yearly?customerId=103&year=2024
 ## Sample Data
