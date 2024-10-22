@@ -2,7 +2,7 @@
 
 ## Overview
 
-This application is a rewards points system that allows retailers to manage and calculate reward points for their customers based on their purchases. Customers earn points based on transaction amounts with specific rules. 
+This application is a rewards points system that allows retailers to calculate reward points for their customers based on their purchases. Customers earn points based on transaction amounts with specific condition. 
 
 ## Features
 
@@ -19,7 +19,7 @@ This application is a rewards points system that allows retailers to manage and 
 
 ## Requirements
 
-- Java 11 or higher
+- Java 08 or higher
 - Maven
 - MongoDB
 
@@ -29,4 +29,18 @@ This application is a rewards points system that allows retailers to manage and 
    ```bash
    git clone https://github.com/yourusername/rewards-points-app.git
    cd rewards-points-app
-mvn clean install
+2. Build the project:   
+   mvn clean install
+3. Run the application:
+   mvn spring-boot-run
+     
+## Endpoints
+**Get Monthly points**
+example :
+http://localhost:8080/api/rewards/monthly?customerId=103&year=2024
+**Get Total points**
+example :
+http://localhost:8080/api/rewards/yearly?customerId=103&year=2024
+## Sample Data
+
+
